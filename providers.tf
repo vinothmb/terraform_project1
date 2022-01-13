@@ -1,5 +1,6 @@
 provider "aws" {
   region     = var.aws_region
-  access_key = "AKIAW24MVFJ4EV4JUQW7"
-  secret_key = "h6+NljbuF/EagD57BVvMfhSQb+IXQmk87DgueJlX"
+  #Use your keys or create configuration file/shared credentials
+  access_key = ""
+  secret_key = ""
 }
