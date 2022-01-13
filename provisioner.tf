@@ -12,12 +12,12 @@ resource "null_resource" "Demo-provisioner" {
     source      = "index.html"
     destination = "/tmp/index.html"
   }
-/*
+
   provisioner "file" {
     source      = "terraform.sh"
     destination = "/tmp/terraform.sh"
   }
-*/
+
 
   provisioner "remote-exec" {
     inline = [
